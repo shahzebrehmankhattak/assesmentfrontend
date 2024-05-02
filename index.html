@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>FrontEnd Assesment</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navigation">
+        <!-- Logo -->
+        <div class="logo">
+          <img src="./images/logo.png" alt="Logo" />
+        </div>
+
+        <!-- Navigation -->
+        <ul class="menu-list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#service">Services</a></li>
+
+          
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="humbarger">
+          <div class="bar"></div>
+          <div class="bar2 bar"></div>
+          <div class="bar"></div>
+        </div>
+      </nav>
+
+      <div class="intro-section" id="#home">
+        <div class="bg-img"></div>
+        <div class="intro-content">
+          <h1>Frontend Developer</h1>
+          <p class="tagline">
+            <span class="change-container">
+              <span class="changing">get what you want</span>
+              <span class="changing">how you want it</span>
+              <span class="changing">when you want it</span>
+            </span>
+          </p>
+          <div class="header-btn animated bounceIn">
+            <a href="#contact"><span>Get A Quote</span></a>
+          </div>
+          <!-- social media -->
+        </div>
+      </div>
+    </header>
+  
+    <div class="row" id="service">
+        <div class="section-heading">
+<h2>Services</h2>
+        </div>
+      <div class="column">
+        <div class="card">
+          <div class="card-img">
+            <img src="./images/aboutus.jpg" alt="Image"/>
+          </div>
+          <div class="card-content">
+            <h3>Optimized Coding</h3>
+            <p>Increased speed of page. reduce code and easy to read.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <div class="card-img">
+            <img src="./images/fast.png" alt="Image"/>
+          </div>
+          <div class="card-content">
+            <h3>Fast Delivery</h3>
+            <p>Complete Website and delivered in days instead of months</p>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <div class="card-img">
+            <img src="./images/res.png" alt="Image"/>
+          </div>
+          <div class="card-content">
+            <h3>Responsive Screen</h3>
+            <p>Look attractive on mobile screen and all devices</p>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <div class="card-img">
+            <img src="./images/gurantee.png" alt="Image"/>
+          </div>
+          <div class="card-content">
+            <h3>Work Guarantee</h3>
+            <p>any changes will be done at any time if client ask.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+<div class="row"  id="contact">
+  <div class="section-heading">
+    <h2>Contact Us</h2>
+            </div>
+  
+</div>
+    <div class="container">
+        <form>
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">First Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Last Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="country">Country</label>
+            </div>
+            <div class="col-75">
+              <select id="country" name="country" required>
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="subject">Subject</label>
+            </div>
+            <div class="col-75">
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
+            </div>
+          </div>
+          <div class="btn-row">
+            <button class="submit-btn" type="submit"  value="Submit">Submit</button>
+          </button>
+          </div>
+        </form>
+      </div>
+
+      
+      
+   <footer class="footer">
+    <div class="row">
+      <div class="column">
+        <h3 class="footer-heading">About Us</h3>
+        <p class="footer-text-about-us">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum ducimus voluptatem rem excepturi distinctio nisi non quisquam laborum saepe, eveniet necessitatibus tempore animi aperiam sit? Inventore fuga consectetur voluptate deleniti!</p>
+      </div>
+      <div class="column"><h3 class="footer-heading">Pages</h3>
+      <ul class="footer-pages">
+        <li>Home</li>
+        <li>Service</li>
+        <li>Contact</li>
+      </ul>
+      
+      </div>
+      <div class="column"><h3 class="footer-heading">Social Links</h3>
+        <div class="social-links">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-google"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+        </div>
+
+    
+      </div>
+      <div class="column"><h3 class="footer-heading">Subscribe</h3>
+      <div class="footer-form">
+        <h5>Subcribite Us</h5>
+<form>
+  <input type="email" name="email" id="email" placeholder="Enter your Email" required>
+  <button>Subscribe</button>
+</form>
+      </div>
+      
+      </div>
+    </div>
+   </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        // Hamburger Toggle
+        $(".humbarger").click(function (event) {
+          $(".menu-list").slideToggle(500);
+          event.preventDefault();
+        });
+
+        // Close menu when clicking on a menu item (for smaller screens)
+        $(".menu-list li a").click(function (event) {
+          if ($(window).width() < 768) {
+            $(".menu-list").slideUp(500);
+            event.preventDefault();
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
